@@ -1,0 +1,23 @@
+body {background:url(fondo.jpg);
+	background-color: black;
+}
+
+.carousel-item{
+  width: 100%;
+  height: 575px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+.carousel-caption {
+	color: yellow;
+}
+
+@media (max-width: 600px) {
+  .carousel-item {
+    height: 280px;
+  }
+}
+
